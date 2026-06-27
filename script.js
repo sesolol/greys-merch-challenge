@@ -47,6 +47,17 @@ image:"images/Illustration28_3.png",
 description:"Ever wanted to get Pauline's Channel Purse™ all for yourself? Now you can own the famous missing purse Pauline's been looking for! Pay extra and you get a freebie inside, too! (Don't tell Pauline we have the purse.)",
 badge: "Staff Pick",
 rating: 5
+},
+
+{
+name: "Ena's Extordinary Outlook",
+price: 16.99,
+image: "images/enas-outlook.png",
+description: "Every kit needs some sort of number. Listen to the CD of our best music! We have over 10 different tracks in one album and they’re all very much audible! Our vinyls are top notch and much better than modern music!",
+badge: "Collector's Item!",
+rating: 5
+
+
 }
 ];
 
@@ -92,8 +103,8 @@ document
 
     `PAYMENT FAILED
 
-    reason:
-    Your team spent too much money at the auction yeseterday 😢`
+reason:
+Your team spent too much money at the auction yeseterday 😢`
 
 
 
