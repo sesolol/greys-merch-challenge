@@ -58,6 +58,16 @@ badge: "Collector's Item!",
 rating: 5
 
 
+},
+
+{
+name: "Cleo's Shark Fang Puzzle",
+price: 29.99,
+image:"images/cleo-fang-puzzle.png",
+description: "Gaze into the eye of Cleo’s life through a replica of his treasured Shark Fang he wears as a necklace. Learn of his favorite things, locales and turbulent times through the faint images, along with his gazing eye being one of many things to meet you upon putting together the pieces of his life through this 3-dimensional puzzle piece",
+badge: "Leaving soon!",
+rating: 3.5
+
 }
 ];
 
