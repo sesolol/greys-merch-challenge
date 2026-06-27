@@ -1,3 +1,5 @@
+let cart = 0;
+
 for (let i = 0; i < 75; i++) {
     const star = document.createElement("div");
     star.className = "star";
@@ -11,10 +13,12 @@ const products = [
 {
 
 
-name:"I dunno",
-price: 0, 
-image: "hi",
-description:"Waiting for merch submissions..."
+name:"Rex's Totally Safe Toolkit",
+price: 24.99, 
+image: "images/rex-toolkit.png",
+description:"A basic starters tool kit which comes with everything you need to assemble some of Rex's coolest creations on your own! Comes in both Bug and Mayor varieties. (Mayor kit not pictured.) Even once you've done the crafts, you get to keep your own custom wooden toolbox patterned to match Rex's iconic hairstyle!",
+badge: "Limited Edition!",
+rating:2
 }
 
 ];
@@ -28,17 +32,17 @@ products.forEach(product=>{
     <div class="card">
 
       <div class="badge">
-       BEST SELLER
+        ${product.badge}
       </div>
-       <div class="emoji">
-          ${product.image}
-
-        </div>
-
+       
+      
+      <img class="productImage" src="${product.image}" alt="${product.name}">
+         
         <h3>${product.name}</h3>
         <div class="rating">
-        ★★★★★
+        ${"★".repeat(product.rating)}
         </div>
+
         <p>${product.description}</p>
 
         <h2>${product.price}</h2>

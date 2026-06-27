@@ -111,7 +111,7 @@ nav a:hover{
 .hero button:hover{
     transform:translateY(-5px);
 
-    box-shadow: 0 0 25px #26DCFA88
+    box-shadow: 0 0 25px #26DCFA88;
 }
 
 #products{
@@ -126,13 +126,13 @@ nav a:hover{
 
 }
 
-foster{
+.foster{
 
     text-align: center;
 
     padding:40px;
 
-    color:#888
+    color:#888;
 }
 
 body::before{
@@ -303,11 +303,11 @@ body::before{
 
    }
     .hero {
-        padding: 60px 20px
+        padding: 60px 20px;
     }
 
     .hero h2 {
-        font-size:2rem
+        font-size:2rem;
     }
 
     .hero p{
@@ -322,7 +322,7 @@ body::before{
     }
 
     .card {
-      padding: 20px
+      padding: 20px;
 
     }
   #cartBtn {
@@ -363,4 +363,19 @@ font-size: 2rem;
 color:#bbbbbb;
 
 line-height: 1.7;
+}
+
+.productImage{
+
+ width:100%;
+
+max-width: 220px;
+
+height: 220px;
+
+object-fit: contain;
+
+margin:20px auto;
+
+display:block;
 }
