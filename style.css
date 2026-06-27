@@ -286,3 +286,48 @@ body::before{
 
 
 }
+
+@media (max-width: 768px) {
+   
+    header {
+    
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+   nav {
+
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+
+   }
+    .hero {
+        padding: 60px 20px
+    }
+
+    .hero h2 {
+        font-size:2rem
+    }
+
+    .hero p{
+        font-size: 1rem;
+    }
+
+    #products {
+      padding: 20px;
+      grid-template-columns: 1fr;
+
+
+    }
+
+    .card {
+      padding: 20px
+
+    }
+  #cartBtn {
+    width: 100%;
+    max-width: 250px;
+  }
+
+}
