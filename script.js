@@ -19,6 +19,16 @@ image: "images/rex-toolkit.png",
 description:"A basic starters tool kit which comes with everything you need to assemble some of Rex's coolest creations on your own! Comes in both Bug and Mayor varieties. (Mayor kit not pictured.) Even once you've done the crafts, you get to keep your own custom wooden toolbox patterned to match Rex's iconic hairstyle!",
 badge: "Limited Edition!",
 rating:2
+},
+
+{
+
+name:"The Deep's guide on sex, pregnancy, teenage changes, living a sigma life and removing the testacles from a whale",
+price: 18.99,
+image: "images/latest.png",
+description: "The Vought approved guide by The Deep himself!",
+badge: "Parental advisory recommended",
+rating: 4
 }
 
 ];
