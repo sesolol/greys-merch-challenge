@@ -29,8 +29,17 @@ image: "images/latest.png",
 description: "The Vought approved guide by The Deep himself!",
 badge: "Parental advisory recommended",
 rating: 4
-}
+},
+{
+name: "Kick the Brianna!",
+price: 14.99,
+image: "images/kick-the-brianna.png",
+description: "after kick-the-buddy became a popular mascot, the infamous reality show's least favorite ended up with a kick-the-brianna! now take ALL your anger out on her. it's okay, she's not scared.",
+badge: "Fan Favourite!",
+rating: 7
 
+
+}
 ];
 
 const productContainer = document.getElementById("products")
