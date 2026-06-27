@@ -38,7 +38,15 @@ description: "after kick-the-buddy became a popular mascot, the infamous reality
 badge: "Fan Favourite!",
 rating: 7
 
+},
 
+{
+name:"Pauline's Chanel Purse",
+price: 149.99,
+image:"images/Illustration28_3.png",
+description:"Ever wanted to get Pauline's Channel Purse™ all for yourself? Now you can own the famous missing purse Pauline's been looking for! Pay extra and you get a freebie inside, too! (Don't tell Pauline we have the purse.)",
+badge: "Staff Pick",
+rating: 5
 }
 ];
 
